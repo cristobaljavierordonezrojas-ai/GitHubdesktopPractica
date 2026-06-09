@@ -1,11 +1,11 @@
-Algoritmo ÃreaRectangulo
+Algoritmo ÁreaRectangulo
 	Definir base, altura, areaRect Como Entero;
-	Escribir "Determine el Ã¡rea del rectÃ¡ngulo";
+	Escribir "Determine el área del rectángulo";
 	Escribir "";
-	Escribir "Â¿CuÃ¡nto mide la base del RectÃ¡ngulo? "
+	Escribir "¿Cuánto mide la base del Rectángulo? ";
 	Leer base;
-	Escribir "Â¿CuÃ¡nto mide la altura del RectÃ¡ngulo? "
+	Escribir "¿Cuánto mide la altura del Rectángulo? ";
 	Leer altura;
-	areaRect=base * altura
-	Escribir "El Ã¡rea del rectangulo mide ",areaRect," centimetros";
+	areaRect=base * altura;
+	Escribir "El área del rectangulo mide ",areaRect," centimetros";
 FinAlgoritmo
