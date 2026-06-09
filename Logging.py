@@ -1,10 +1,14 @@
 user="admin"
 password="SQL2026"
-usuario=0
-contraseña=0
-while user!=usuario:
-  usuario=input("User: ").lower()
-while password!=contraseña:
-  contraseña=input("Contraseña: ").upper()
-print("Acceso Concedido, Bienvenido")
+usuario=""
+contraseña=""
+while user!=usuario or password!=contraseña:
+  usuario=input("Usuario: ")
+  contraseña=input("Contraseña: ")
+  if user!=usuario:
+    print("El Usuario no Exciste, Intentalo de Nuevo")
+  elif password!=contraseña:
+    print("Clave Incorrecta, Intentalo de Nuevo")
+  else:
+    print("Acceso Concedido, Bienvenido")
   
